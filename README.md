@@ -27,3 +27,4 @@ This project explores how to evaluate the performance of GenAI models on financi
 ---
 
 ## 📂 Folder Structure
+LLM-Evaluation-Prototype/ ├── Mini_Project/ │   ├── scripts/              # Evaluation scripts │   ├── data/                 # Sample inputs and outputs ├── Learning_Notes/          # Daily reflections and learnings ├── README.md                # Project overvie
