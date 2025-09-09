@@ -1,0 +1,28 @@
+# Day 1 Notes – Environment Setup & ROUGE Evaluation
+
+## ✅ Completed Setup
+- Installed Python and added it to PATH
+- Installed VS Code with Python + Jupyter extensions
+- Installed essential Python libraries:
+  - `evaluate`, `rouge_score`, `nltk`, `absl-py`
+  - `transformers`, `pandas`, `scikit-learn`, `openai`, `streamlit`
+- Installed Git + GitHub Desktop and signed in
+- Added Streamlit and other CLI tools to system PATH
+- Installed PyTorch (CPU version) for model loading
+- Verified setup by running a ROUGE evaluation script
+
+## 🧪 Key Learnings
+- ROUGE is a metric for comparing generated summaries to reference texts
+- `evaluate` library loads metrics like ROUGE and computes scores
+- Missing dependencies (like `rouge_score`, `nltk`) must be manually installed
+- PATH issues can block CLI tools like `streamlit` — fixed via Environment Variables
+
+## 💡 Reflections
+- First hands-on experience with Python scripting and terminal workflows
+- Learned how to troubleshoot installation issues and PATH errors
+- Setup now ready for GenAI evaluation pipelines and dashboarding
+
+## 🔜 Next Steps
+- Load a financial summary or PDF
+- Generate output using a GenAI model
+- Evaluate using ROUGE and visualize results in Streamlit
